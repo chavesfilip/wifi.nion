@@ -158,7 +158,7 @@ h1 {
 .jumbotron .display-4 {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 700;
 }
 
@@ -166,7 +166,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   margin-top: 60px;
   color: #ffffff;
-  margin-bottom: 90px;
+  margin-bottom: 40px;
   letter-spacing: 2px;
 }
 
@@ -252,13 +252,13 @@ h1 {
 }
 
 .content p::after {
-  content: "/bulan";
+  content: "/Hora";
   font-weight: 400;
   size: 20px;
 }
 
 .content p::before {
-  content: "Rp. ";
+  content: "preço: ";
   font-weight: 400;
   size: 20px;
 }
@@ -432,8 +432,6 @@ footer .padding-footer {
 }
 
 footer .padding-footer2 {
-  margin-top: 45px;
-  margin-bottom: 15px;
 }
 
 footer .tombol {
@@ -495,6 +493,14 @@ footer .row.icon-awesome i {
   .content.out .tombol-transparan {
     padding-left: 105px;
     padding-right: 105px;
+  }
+  .gps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  iframe {
+    width: 100%;
   }
 
   footer .padding-footer2 {
